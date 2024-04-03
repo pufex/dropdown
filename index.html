@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="./src/style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dropdown</title>
+  </head>
+  <body>
+    <form class="form">
+      <div class="dropdown" id="minutes">
+        <label class="dropdown-input-container">
+          <input type="text" class="dropdown-input">
+          <div class="summonList-container">
+            <button class="btn btn--summonList" type="button"></button>
+          </div>
+          <div class="dropdown-list-container">
+            <ul class="dropdown-list"></ul>
+          </div>
+        </label>
+      </div>
+      <button class="btn btn--submit" type="submit">
+        Submit!
+      </button> 
+    </form>
+    <script type="module" src="/src/main.ts"></script>
+  </body>
+</html>
